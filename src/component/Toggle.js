@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
+import { LayoutContextNew } from "../context/LayoutContextNew";
 
 const Toggle = () => {
-  const { nightmode, handleToggle } = useContext(LayoutContext);
+  const { nightmode, handleToggle } = useContext(LayoutContextNew);
 
   return (
     <div>
